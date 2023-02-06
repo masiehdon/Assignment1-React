@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(16, 13, 13);
+  width: 100%;
+}
+
+.wrapper {
+  margin: 1em;
+}
+
+article {
+  background-color: rgb(83, 95, 95);
+  margin: 2em;
+  padding: 1em;
+}
+
+h1 {
+  color: brown;
+}
+
+.wrapper button {
+  margin: 1em;
+  padding: 0.5em;
+  border: 1px yellow solid;
+}
+
+button:hover {
+  border-radius: 5%;
+}
+
+.show {
+  background-color: rgb(83, 95, 95);
+  margin: 2em;
+  padding: 1em;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
